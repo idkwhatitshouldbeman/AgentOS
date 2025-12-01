@@ -1,0 +1,25 @@
+# Build artifacts
+buildroot/
+output/
+*.iso
+*.tar.gz
+*.log
+*.ppm
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Temporary scripts/files
+scripts/
+*.sh
