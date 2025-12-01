@@ -1,0 +1,37 @@
+! Beige-themed Xterm colors
+XTerm*background: #F5F5DC
+XTerm*foreground: #3C2A1A
+XTerm*cursorColor: #5C4A3A
+
+! Font settings
+XTerm*faceName: Liberation Mono
+XTerm*faceSize: 10
+XTerm*renderFont: true
+
+! Color palette - beige/brown theme
+XTerm*color0: #2C1A0A
+XTerm*color1: #8C3A1A
+XTerm*color2: #4C5A2A
+XTerm*color3: #9C7A3A
+XTerm*color4: #4C5A7A
+XTerm*color5: #7C4A6A
+XTerm*color6: #4C7A6A
+XTerm*color7: #C5B5A4
+XTerm*color8: #5C4A3A
+XTerm*color9: #AC5A3A
+XTerm*color10: #6C7A4A
+XTerm*color11: #BC9A5A
+XTerm*color12: #6C7A9A
+XTerm*color13: #9C6A8A
+XTerm*color14: #6C9A8A
+XTerm*color15: #E5D5C4
+
+! Scrollbar
+XTerm*scrollBar: false
+XTerm*rightScrollBar: false
+
+! Bell
+XTerm*visualBell: true
+
+! Cursor
+XTerm*cursorBlink: true

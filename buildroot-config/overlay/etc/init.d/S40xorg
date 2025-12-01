@@ -1,0 +1,3 @@
+#!/bin/sh
+# Disabled S40xorg to allow .profile to handle X11 startup
+exit 0

@@ -1,0 +1,27 @@
+QUICK START - VM Setup
+======================
+
+1. DELETE OLD VM (if exists):
+   In VirtualBox: Right-click "AgenticOS" → Remove → Delete all files
+
+2. CREATE NEW VM:
+   cd /home/aaroh/Downloads/AgentOS
+   ./scripts/setup-vm-fast.sh
+
+3. INSTALL DEBIAN:
+   - Start VM in VirtualBox
+   - Install Debian (minimal, no desktop)
+   - Takes ~5-10 minutes
+
+4. SETUP INSIDE VM:
+   - Copy scripts/vm-post-install.sh into VM
+   - Run it: chmod +x vm-post-install.sh && ./vm-post-install.sh
+
+5. CREATE SNAPSHOT (from host):
+   ./scripts/vm-snapshot-helper.sh create
+
+DONE! Now testing is fast:
+   make reset-vm    # Reset VM in 5 seconds
+   make test-cycle  # Local tests + VM reset
+
+See SETUP_GUIDE.md for detailed instructions.

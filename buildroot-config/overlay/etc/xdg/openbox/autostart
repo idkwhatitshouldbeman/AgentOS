@@ -1,0 +1,27 @@
+# Run the system-wide support stuff
+. $GLOBALAUTOSTART
+
+# Set solid beige background immediately
+if command -v xsetroot >/dev/null; then
+    xsetroot -solid "#F5F5DC"
+fi
+
+# Start panel (if available)
+# Start panel (if available)
+if command -v matchbox-panel >/dev/null; then
+   matchbox-panel --titlebar --orientation south &
+fi
+
+# Start desktop manager (wallpaper/icons)
+if command -v pcmanfm >/dev/null; then
+    pcmanfm --desktop &
+fi
+
+# Network Manager Applet (if available)
+# nm-applet &
+
+# Volume control (if available)
+# volumeicon &
+
+# Power manager (if available)
+# xfce4-power-manager &

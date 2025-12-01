@@ -1,0 +1,4 @@
+#!/bin/sh
+# Dummy openbox-xdg-autostart to prevent Python 2 syntax errors
+# We handle autostart manually in /etc/xdg/openbox/autostart
+exit 0

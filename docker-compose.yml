@@ -1,0 +1,19 @@
+# Super simple - just run: docker-compose up
+version: '3.8'
+
+services:
+  test:
+    build: .
+    volumes:
+      - .:/app
+    command: pytest tests/ -v
+
+  shell:
+    build: .
+    volumes:
+      - .:/app
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+
+

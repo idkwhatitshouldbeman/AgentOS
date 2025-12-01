@@ -1,0 +1,114 @@
+# Tint2 panel configuration - Beige theme
+# Background definitions
+rounded = 0
+border_width = 0
+border_sides = TBLR
+background_color = #F5F5DC 100
+background_color_hover = #EEEEDD 100
+background_color_pressed = #E5E5CC 100
+
+# Panel
+panel_items = TSC
+panel_size = 100% 32
+panel_margin = 0 0
+panel_padding = 4 2 4
+panel_background_id = 1
+wm_menu = 1
+panel_dock = 0
+panel_position = bottom center horizontal
+panel_layer = top
+panel_monitor = all
+panel_shrink = 0
+autohide = 0
+autohide_show_timeout = 0
+autohide_hide_timeout = 0.5
+autohide_height = 2
+strut_policy = follow_size
+panel_window_name = tint2
+disable_transparency = 0
+mouse_effects = 1
+font_shadow = 0
+mouse_hover_icon_asb = 100 0 10
+mouse_pressed_icon_asb = 100 0 0
+scale_relative_to_dpi = 0
+scale_relative_to_screen_height = 0
+
+# Taskbar
+taskbar_mode = single_desktop
+taskbar_hide_if_empty = 0
+taskbar_padding = 0 0 2
+taskbar_background_id = 0
+taskbar_active_background_id = 0
+taskbar_name = 1
+taskbar_hide_inactive_tasks = 0
+taskbar_hide_different_monitor = 0
+taskbar_hide_different_desktop = 0
+taskbar_always_show_all_desktop_tasks = 0
+taskbar_name_padding = 6 3
+taskbar_name_background_id = 0
+taskbar_name_active_background_id = 0
+taskbar_name_font = Liberation Sans 10
+taskbar_name_font_color = #5C4A3A 100
+taskbar_name_active_font_color = #3C2A1A 100
+taskbar_distribute_size = 0
+taskbar_sort_order = none
+task_align = center
+
+# Task
+task_text = 1
+task_icon = 1
+task_centered = 0
+urgent_nb_of_blink = 100000
+task_maximum_size = 150 35
+task_padding = 4 3 4
+task_tooltip = 1
+task_thumbnail = 0
+task_thumbnail_size = 210
+task_font = Liberation Sans 9
+task_font_color = #5C4A3A 100
+task_active_font_color = #3C2A1A 100
+task_urgent_font_color = #8C3A1A 100
+task_icon_asb = 100 0 0
+task_background_id = 0
+task_active_background_id = 2
+task_urgent_background_id = 3
+task_iconified_background_id = 0
+mouse_left = toggle_iconify
+mouse_middle = none
+mouse_right = close
+mouse_scroll_up = prev_task
+mouse_scroll_down = next_task
+
+# System tray
+systray_padding = 4 2 4
+systray_background_id = 0
+systray_sort = ascending
+systray_icon_size = 24
+systray_icon_asb = 100 0 0
+systray_monitor = 1
+systray_name_filter = 
+
+# Clock
+time1_format = %H:%M
+time2_format = %A %d %B
+time1_font = Liberation Sans 11
+time1_timezone = 
+time2_timezone = 
+clock_font_color = #5C4A3A 100
+clock_padding = 6 2
+clock_background_id = 0
+clock_tooltip = 
+clock_tooltip_timezone = 
+clock_lclick_command = 
+clock_rclick_command = 
+clock_mclick_command = 
+clock_uwheel_command = 
+clock_dwheel_command = 
+
+# Tooltips
+tooltip_show_timeout = 0.5
+tooltip_hide_timeout = 0.1
+tooltip_padding = 4 4
+tooltip_background_id = 1
+tooltip_font_color = #5C4A3A 100
+tooltip_font = Liberation Sans 9
