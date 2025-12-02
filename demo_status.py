@@ -30,7 +30,7 @@ def run_demo():
         user_msg = Message(role="user", content=user_input)
         result = agent.run([user_msg])
         
-        response = result.messages[0].content
+        response = result.final_answer
         print(f"   Agent Response: '{response}'")
         print("   ✓ Interaction loop working")
     except Exception as e:
