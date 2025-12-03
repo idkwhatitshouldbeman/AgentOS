@@ -5,6 +5,7 @@ Built with PyQt6 for a modern, animated, always-on-top experience.
 
 import sys
 import os
+import logging
 
 # Add src to path to allow imports
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -248,9 +249,21 @@ class AgentSidebar(QWidget):
              self.slide_out()
 
 def main():
-    app = QApplication(sys.argv)
-    sidebar = AgentSidebar()
-    sys.exit(app.exec())
+    # Setup logging
+    logging.basicConfig(
+        filename='/tmp/agent-overlay.log',
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
+    logging.info("Starting AgentOS Overlay...")
+    
+    try:
+        app = QApplication(sys.argv)
+        sidebar = AgentSidebar()
+        sys.exit(app.exec())
+    except Exception as e:
+        logging.critical(f"Overlay crashed: {e}", exc_info=True)
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
