@@ -1,8 +1,16 @@
 # AgentOS
 
-**An AI-first Operating System where the agent is the kernel.**
+**An AI-first Operating System where the agent controls everything.**
 
-AgentOS is a research project to build a Linux-based OS designed from the ground up for AI agents. Unlike traditional OSs where AI is an app, in AgentOS, the AI has deep system integration, capable of seeing the screen, controlling inputs, and managing the system.
+AgentOS is a research project to build a Linux-based OS designed from the ground up for AI agents. Unlike traditional OSs where AI is an app, in AgentOS, the AI has deep system integration, capable of seeing the screen, controlling inputs, managing files, and controlling the entire system.
+
+## 🚀 Quick Start - Just Run This!
+
+```bash
+python main.py
+```
+
+That's it! No setup, no clicking, no configuration. The AI agent is ready to help you.
 
 ## 🚀 Quick Start for AI Agents (and Humans)
 
